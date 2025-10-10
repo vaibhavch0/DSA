@@ -26,3 +26,32 @@ fir hmne arr array ko loop krke check kiya ki wo element print hua h ya nhi
 agr nhi hua to us element ki frequency print krwayi or us element ko printed array m true krdya or print krwa diya
 
 */
+
+
+// count frequency of characters in a string
+/*
+
+
+ * class Main {
+    
+    static void freq(String str){
+        int []arr=new int[144];
+        for(int i=0;i<str.length();i++){
+            arr[str.charAt(i)]= arr[str.charAt(i)]+1;
+        }
+        boolean[] printed=new boolean[144];
+        for(int i=0;i<str.length();i++){
+            if(!printed[str.charAt(i)]){
+            System.out.println( str.charAt(i)+" "+ arr[str.charAt(i)]);
+                printed[str.charAt(i)]=true;
+            }
+        }
+        
+    }
+    public static void main(String[] args) {
+        String str="vaibhav";
+        freq(str);
+    }
+}
+    same jaise array m kiya tha waise hi string m bhi kr skte h
+ */

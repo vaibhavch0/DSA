@@ -52,5 +52,10 @@ class Solution {
 }
 
 
-is code e
+isme humne next greater element ko find krna h
+isme humne stack ka use kiya h
+sabse phle hmne ek array banaya jisme hmne -1 fill kr diya
+fir hmne stack banaya   
+
 */  
+// 503 

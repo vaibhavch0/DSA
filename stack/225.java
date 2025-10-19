@@ -34,6 +34,14 @@ class MyStack {
     public boolean empty() {
         return q1.isEmpty();
     }
-}       
+}  
+isme hmne stack ko queue se implement krna h
+isme hmne do queue banayi q1 and q2
+push m hmne q1 m element add kr diya
+pop m hmne q1 se sare element except last ek ek krke q2 m dal       diya
+fir last element ko pop kr diya
+fir q1 and q2 ko swap kr diya
+top m bhi same process h bus last element ko wapis q2 m dal diya
+empty m hmne check kr diya ki q1 empty h ya nhi      
 */
 // 225      

@@ -21,6 +21,7 @@
     
 }
 }
+
 isme hmne stack ko sort krna h to sbse phle hmne stack ko pop krke ek arraylist m dal diya
 fir hmne arraylist ko sort kr diya
 fir hmne arraylist ke elements ko stack m push kr diya
@@ -50,7 +51,6 @@ class Solution {
         return arr;
     }
 }
-
 
 isme humne next greater element ko find krna h
 isme humne stack ka use kiya h

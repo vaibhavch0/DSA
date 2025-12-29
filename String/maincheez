@@ -1,0 +1,15 @@
+s.replaceAll("[^a-zA-Z0-9]", "")
+toCharArray() → string ko characters mein tod diya
+
+Arrays.sort() → characters ko sort kar diya
+
+new String(arr) → wapas string bana di
+
+| Tum kya chahte ho  | Correct Method                 |
+| ------------------ | ------------------------------ |
+| Letter hai ya nahi | `Character.isLetter(c)`        |
+| Digit hai ya nahi  | `Character.isDigit(c)`         |
+| Letter/digit       | `Character.isLetterOrDigit(c)` |
+| Uppercase check    | `Character.isUpperCase(c)`     |
+| Lowercase check    | `Character.isLowerCase(c)`     |
+| Uppercase banana   | `Character.toUpperCase(c)`     |

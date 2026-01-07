@@ -19,4 +19,5 @@ public class ratmaze {
         int total= down+right;
         return total;
     }
+    // in this code we are counting the number of ways to reach the destination cell (er, ec) from the source cell (sr, sc) ;
 }
